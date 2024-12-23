@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
 
-    bucket = "backend-for-tfstate"
+    bucket = "backend-for-tfstate"   (first create bucket inside the mentioned region with these name)
     key = "data_bucket"
     region = "ap-northeast-1"
     
